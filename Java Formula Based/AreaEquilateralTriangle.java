@@ -19,7 +19,7 @@ public class AreaEquilateralTriangle{
 
             area = (Math.sqrt(3) / 4) * Math.pow(lengthSide, 2);
 
-            System.out.printf("The area of the equilateral triangle is: %.2f", area);
+            System.out.printf("The area of Equilateral Triangle is: %.2f", area);
         }
 
     }

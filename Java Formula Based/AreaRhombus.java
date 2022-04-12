@@ -10,18 +10,19 @@ public class AreaRhombus{
 
     public static void main (String[] args){
 
-        Scanner in = new Scanner (System.in);
-        double area;
+        try (Scanner in = new Scanner (System.in)) {
+            double area;
 
-        System.out.print("Enter the 1st diagonal value: ");
-        double d1 = in.nextDouble();
+            System.out.print("Enter the 1st diagonal value: ");
+            double d1 = in.nextDouble();
 
-        System.out.print("Enter the 2nd diagonal value: ");
-        double d2 = in.nextDouble();
+            System.out.print("Enter the 2nd diagonal value: ");
+            double d2 = in.nextDouble();
 
-        area = (d1 * d2) / 2;
+            area = (d1 * d2) / 2;
 
-        System.out.printf("The area of the rhombus is: %.2f", area);
+            System.out.printf("The area of Rhombus is: %.2f", area);
+        }
 
 
 
