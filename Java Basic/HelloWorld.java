@@ -1,4 +1,8 @@
-//Exercise 1
+/* Exercise 1
+
+Write a Java program to print ‘Hello World!’ on screen
+
+*/
 
 public class HelloWorld{
 

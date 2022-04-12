@@ -1,5 +1,8 @@
-//Exercise 2
+/*Exercise 2
 
+Write a Java program to print the sum of two numbers
+
+*/
 import java.util.Scanner;
 
 public class SumTwoNumbers {

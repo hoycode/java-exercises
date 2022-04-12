@@ -4,8 +4,6 @@ Write a Java program to count the letters, spaces, numbers and other characters 
 
 */
 
-import java.util.Scanner;
-
 public class CountInputString {
  public static void main (String[] args){
 

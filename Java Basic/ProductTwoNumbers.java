@@ -1,4 +1,8 @@
-//Exercise 3
+/* Exercise 3
+
+Write a Java program that takes two numbers and display the product of two numbers
+
+*/
 
 import java.util.Scanner;
 

@@ -11,10 +11,10 @@ public class DecimalToBinary {
 
         int decimalNum, quot, i=1, j;
         int bin_num[] = new int[100];
-        Scanner in = new Scanner(System.in);
-
-        System.out.print("Enter a Decimal number: ");
-        decimalNum = in.nextInt();
+        try (Scanner in = new Scanner(System.in)) {
+            System.out.print("Enter a Decimal number: ");
+            decimalNum = in.nextInt();
+        }
 
         quot = decimalNum;
 
